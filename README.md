@@ -3,7 +3,7 @@ A Python-based solution for automating English Anki decks from the Kindle databa
 
 You must copy the file `vocab.db` into the same folder of this program before you start.
 
-## A example of Output 
+## An example of Output 
 
 In this example, I will create a deck for a book called Zen Mind, Beginner's Mind.
 1) First of all, get the `vocab.db` in the same folder as `main.py`
