@@ -1,7 +1,12 @@
 # KindleToAnki
 A Python-based solution for automating English Anki decks from the Kindle database.
 
-You must copy the file `vocab.db` into the same folder of this program before you start.
+You must copy the file `vocab.db` from your Kindle via USB into the same folder of this program before you start.
+Additionally, check if you have all the required packages:
+
+```
+$ pip install -r requirements.txt
+```
 
 ## An example of Output 
 
@@ -62,6 +67,7 @@ Deck saved successfully.
 
 
 This program uses the Merriam-Webster's Collegiate® Thesaurus API for fetching English word definitions.
+
 Therefore, you must request a Merriam-Webster's Collegiate® Thesaurus API key to connect to the API.
 
 <img
