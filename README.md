@@ -7,7 +7,7 @@ You must copy the file `vocab.db` into the same folder of this program before yo
 
 In this example, I will create a deck for a book called Zen Mind, Beginner's Mind.
 1) First of all, get the `vocab.db` in the same folder as `main.py`
-2) Take your API Key and change the variable `API_KEY` in `main.py`
+2) Take your Merriam-Webster's Collegiate® Thesaurus API Key at https://dictionaryapi.com/ and change the variable `API_KEY` in `main.py`
 3) Run the script and select the `id` of the chosen title.
 4) The script will take the words and the usage from the vocab database and send a `GET request` for the Merriam-Webster's Collegiate® Thesaurus API to fetch each word definition (It can take a couple of minutes, depending on how many words your book has.)
 5) Finally, your Book's deck will be created and saved in the /Decks directory.
