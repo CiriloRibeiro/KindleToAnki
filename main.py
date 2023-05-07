@@ -1,7 +1,7 @@
 from KindleToAnki import KindleToAnki
 from DeckCreator import DeckCreator
 
-API_KEY = "644443cb-bbc4-4d01-9884-bae3d87d2419"
+API_KEY = "your-key-here" #create a unique API key
 
 def initialize(API_KEY):
     
